@@ -4,7 +4,11 @@
  headerE1.style.color = 'rgb(52, 98, 74)';
  headerE1.style.marginLeft = '20px';
 
-var artShow1 = 22
+var artShow1 = 1
+
+// element.addEventListener("click", function() {
+//     document.getElementById("myArt").src = "assets/coffeenadonut.png";
+//   });
 
 // console.log(artShow1);
 
