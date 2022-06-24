@@ -58,7 +58,9 @@ h1 {
     body {
       background-color: var(--mid_sage);
     }
-  
+#myArt {
+  width:auto;
+}  
   .overall {
     flex-wrap: wrap;
   }
