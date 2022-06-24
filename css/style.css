@@ -56,10 +56,10 @@ h1 {
   
   @media only screen and (max-width: 600px) {
     body {
-      background-color: var(--mid_sage);
+      background-color: var(--sage);
     }
 #myArt {
-  width:auto;
+  width:100%;
 }  
   .overall {
     flex-wrap: wrap;
