@@ -1,0 +1,64 @@
+:root {
+    --light_warm: rgb(233, 216, 164);
+    --dark_warm: rgb(63, 29, 27);
+    --sage: rgb(193, 223, 225);
+    --mid_sage: rgb(142, 182, 171);
+    --dark_sage: rgb(52, 98, 74);
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+  }
+h1 {
+    font-family: Helvetica, sans-serif;
+}
+
+  .caption {
+    font-size: 14px;
+    line-height: 150%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 2px 0 6px 0;
+    color: var(--dark_sage);
+    align-self: flex-end;
+  }
+  
+  p {
+  font-size: 16x;
+  line-height: 175%;
+  }
+
+  nav {
+    display: flex;
+    background-color: var(--light_warm);
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    overflow: visible;
+    padding: 10px;
+  }
+  a {
+    color: var(--dark_sage);
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10px;
+    font-size: 20px;
+  } 
+  
+  .logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--dark_sage);
+    padding-left: 10px;
+    font-size: 20px;
+  }
+
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: var(--mid_sage);
+    }
+  
+  .overall {
+    flex-wrap: wrap;
+  }
