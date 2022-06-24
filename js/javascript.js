@@ -4,28 +4,28 @@
  headerE1.style.color = 'rgb(52, 98, 74)';
  headerE1.style.marginLeft = '20px';
 
-var artShow1 = 3
+var artShow1 = 22
 
-console.log(artShow1);
+// console.log(artShow1);
 
-if (artShow1 == 1) {
-var tlfArt = document.getElementById("myArt").src = "assets/coffeenadonut.png";
+if (artShow1 >= 1 && artShow1 < 10) {
+    document.getElementById("myArt").src = "assets/coffeenadonut.png";
 }
 
-if (artShow1 == 2) {
-var tlfArt = document.getElementById("myArt").src = "assets/oldman.jpg";
+if (artShow1 >= 11 && artShow1 < 20) {
+    document.getElementById("myArt").src = "assets/oldman.jpg";
 }
 
-if (artShow1 == 3) {
-var tlfArt = document.getElementById("myArt").src = "assets/bread.jpg";
+if (artShow1 >= 21 && artShow1 < 30) {
+    document.getElementById("myArt").src = "assets/bread.jpg";
 }
 
-if (artShow1 == 4) {
-var tlfArt = document.getElementById("myArt").src = "assets/logopng.png";
+if (artShow1 >= 31 && artShow1 < 40) {
+    document.getElementById("myArt").src = "assets/logopng.png";
 }
 
-if (artShow1 == 5) {
-var tlfArt = document.getElementById("myArt").src = "assets/water.jpg";
+if (artShow1 >= 41 && artShow1 < 50) {
+    document.getElementById("myArt").src = "assets/water.jpg";
 }
 
 
