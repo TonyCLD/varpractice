@@ -61,22 +61,23 @@ section {
     padding: 10px;
   }
   
-.btnslidenav {
-    background-color: var(--dark_warm);
-    border: solid;
-    border-radius: 3px;
-    border-color: var(--light_warm);
-    margin: 10px 0px 20px 18px;
-    width: 175px;
-    font-size: 16 px;
-    text-align: center;
-    text-decoration: none;
-    color: var(--light_warm);
-    font-weight: 700;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    transition: all 0.5s;
-    cursor: pointer;
+.btnsstyling {
+  background-color: var(--dark_warm);
+  border: solid;
+  border-radius: 3px;
+  border-color: var(--light_warm);
+  margin: 10px 0px 20px 18px;
+  width: 175px;
+  font-size: 16 px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--light_warm);
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition: all 0.5s;
+  cursor: pointer;
 }
+
 
 .btnslidenav:hover {
     border-color: var(--dark_sage);
